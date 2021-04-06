@@ -115,17 +115,17 @@ class Placemark {
     final Map<dynamic, dynamic> placemarkMap = message;
 
     return Placemark._(
-      name: placemarkMap['name'] ?? '',
-      street: placemarkMap['street'] ?? '',
-      isoCountryCode: placemarkMap['isoCountryCode'] ?? '',
-      country: placemarkMap['country'] ?? '',
-      postalCode: placemarkMap['postalCode'] ?? '',
-      administrativeArea: placemarkMap['administrativeArea'] ?? '',
-      subAdministrativeArea: placemarkMap['subAdministrativeArea'] ?? '',
-      locality: placemarkMap['locality'] ?? '',
-      subLocality: placemarkMap['subLocality'] ?? '',
-      thoroughfare: placemarkMap['thoroughfare'] ?? '',
-      subThoroughfare: placemarkMap['subThoroughfare'] ?? '',
+      name: placemarkMap['name'],
+      street: placemarkMap['street'],
+      isoCountryCode: placemarkMap['isoCountryCode'],
+      country: placemarkMap['country'],
+      postalCode: placemarkMap['postalCode'],
+      administrativeArea: placemarkMap['administrativeArea'],
+      subAdministrativeArea: placemarkMap['subAdministrativeArea']',
+      locality: placemarkMap['locality'],
+      subLocality: placemarkMap['subLocality'],
+      thoroughfare: placemarkMap['thoroughfare'],
+      subThoroughfare: placemarkMap['subThoroughfare']',
     );
   }
 
