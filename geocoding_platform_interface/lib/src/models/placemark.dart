@@ -121,11 +121,11 @@ class Placemark {
       country: placemarkMap['country'],
       postalCode: placemarkMap['postalCode'],
       administrativeArea: placemarkMap['administrativeArea'],
-      subAdministrativeArea: placemarkMap['subAdministrativeArea']',
+      subAdministrativeArea: placemarkMap['subAdministrativeArea'],
       locality: placemarkMap['locality'],
       subLocality: placemarkMap['subLocality'],
       thoroughfare: placemarkMap['thoroughfare'],
-      subThoroughfare: placemarkMap['subThoroughfare']',
+      subThoroughfare: placemarkMap['subThoroughfare'],
     );
   }
 
